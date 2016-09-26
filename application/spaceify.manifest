@@ -1,0 +1,32 @@
+{
+  "provides_services": [
+    {
+      "service_name": "spaceify.org/services/lights",
+      "service_type": "open"
+    }
+  ],
+  "name": "OSRAM LIGHTIFY driver",
+  "unique_name": "spaceify/driver-osram-lightify",
+  "version": "0.1.0",
+  "type": "sandboxed",
+  "category": "multimedia",
+  "start_command": "node driver-osram-lightify",
+  "developer": {
+    "name": "Spaceify Oy",
+    "url": "http://spaceify.net",
+    "email": "admin@spaceify.net"
+  },
+  "short_description": "Light control driver for OSRAM LIGHTIFY.",
+  "appstore_description": "You can setup OSRAM LIGHTIFY lights using this driver and them control them in other apps.",
+  "license": "MIT",
+  "creation_date": "2016-09-23 17:00:00",
+  "implements": [
+    "WEB_SERVER"
+  ],
+  "images": [
+    {
+      "file": "icon.png"
+    }
+  ],
+  "unique_directory": "spaceify/driver-osram-lightify/"
+}
