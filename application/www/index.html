@@ -18,13 +18,13 @@
 			// DOM AND EVENTS -- -- -- -- -- -- -- -- -- -- //
 		window.addEventListener("spaceifyReady", function()
 			{
-			var query = new SpaceifyNetwork().parseQuery(window.location.href);				// driver-osram-lightify id could be passed in the URL
+			var query = new SpaceifyNetwork().parseQuery(window.location.href);				// driver osram lightify id could be passed in the URL
 			driverOsramLightifyId = ("driverOsramLightifyId" in query ? query.driverOsramLightifyId : "default");
 
 			spaceify = new SpaceifyApplication();
 
 			driverOsramLightify = new OsramLightifyDriver();
-			spaceify.start(driverOsramLightify, "spaceify/driver-osram-lightify");
+			spaceify.start(driverOsramLightify, "spaceify/driverosramlightify");
 			});
 
 			// OsramLightifyDriver -- -- -- -- -- -- -- -- -- -- //

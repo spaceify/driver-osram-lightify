@@ -6,7 +6,7 @@
     }
   ],
   "name": "OSRAM LIGHTIFY driver",
-  "unique_name": "spaceify/driver-osram-lightify",
+  "unique_name": "spaceify/driverosramlightify",
   "version": "0.1.0",
   "type": "sandboxed",
   "category": "multimedia",
@@ -28,5 +28,5 @@
       "file": "icon.png"
     }
   ],
-  "unique_directory": "spaceify/driver-osram-lightify/"
+  "unique_directory": "spaceify/driverosramlightify/"
 }
